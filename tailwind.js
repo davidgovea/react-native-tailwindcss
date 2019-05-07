@@ -12,7 +12,7 @@ const borderStyle = generator.generate('border', 'borderStyle', ['solid', 'dotte
 const direction = generator.generate('direction', 'direction', ['inherit', 'ltr', 'rtl',]);
 const display = generator.generate('display', 'display', ['none', 'flex',]);
 const flexDirection = generator.generate('flex', 'flexDirection', ['row', 'row-reverse', ['col', 'column'], ['col-reverse', 'column-reverse'],]);
-const flexWrap = generator.generate('flex', 'flexWrap', ['wrap', 'wrap-reverse', ['no-wrap', 'nowrap'],]);
+// const flexWrap = generator.generate('flex', 'flexWrap', ['wrap', 'wrap-reverse', ['no-wrap', 'nowrap'],]);
 const fontStyle = generator.generate('', 'fontStyle', [['not-italic', 'normal'], 'italic',]);
 const fontWeight = generator.generate('font', 'fontWeight', ['normal', 'bold',
     ['hairline', 100],
@@ -30,7 +30,7 @@ const position = generator.generate('', 'position', ['absolute', 'relative',]);
 const resize = generator.generate('resize', 'resizeMode', ['contain', 'cover', 'stretch', 'center', 'repeat',]);
 const textAlign = generator.generate('text', 'textAlign', ['auto', 'left', 'right', 'center', 'justify',]);
 const textDecoration = generator.generate('', 'textDecorationLine', [['no-underline', 'none'], 'underline', 'line-through', ['underline-line-through', 'underline line-through'],]);
-const textTransform = generator.generate('', 'textTransform', [['normal-case', 'none'], 'uppercase', 'lowercase', 'capitalize',]);
+// const textTransform = generator.generate('', 'textTransform', [['normal-case', 'none'], 'uppercase', 'lowercase', 'capitalize',]);
 const verticalAlign = generator.generate('align', 'textAlignVertical', ['auto', 'top', 'bottom', 'center',]);
 
 const themeParser = key => {
@@ -143,7 +143,7 @@ Object.assign(allStyles,
     direction,
     display,
     flexDirection,
-    flexWrap,
+    // flexWrap,
     fontStyle,
     fontWeight,
     justifyContent,
@@ -153,7 +153,7 @@ Object.assign(allStyles,
     resize,
     textAlign,
     textDecoration,
-    textTransform,
+    // textTransform,
     verticalAlign,
     backgroundColor,
     borderColor,
