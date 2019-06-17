@@ -1292,10 +1292,10 @@ Object {
     "display": "flex",
   },
   "flex1": Object {
-    "flexBasis": "1 1 0%",
+    "flex": 1,
   },
   "flexAuto": Object {
-    "flexBasis": "1 1 auto",
+    "flex": 1,
   },
   "flexCol": Object {
     "flexDirection": "column",
@@ -1303,20 +1303,32 @@ Object {
   "flexColReverse": Object {
     "flexDirection": "column-reverse",
   },
+  "flexGrow": Object {
+    "flexGrow": 1,
+  },
+  "flexGrow0": Object {
+    "flexGrow": 0,
+  },
   "flexInitial": Object {
-    "flexBasis": "0 1 auto",
+    "flex": 0,
   },
   "flexNoWrap": Object {
     "flexWrap": "nowrap",
   },
   "flexNone": Object {
-    "flexBasis": "none",
+    "flex": 0,
   },
   "flexRow": Object {
     "flexDirection": "row",
   },
   "flexRowReverse": Object {
     "flexDirection": "row-reverse",
+  },
+  "flexShrink": Object {
+    "flexShrink": 1,
+  },
+  "flexShrink0": Object {
+    "flexShrink": 0,
   },
   "flexWrap": Object {
     "flexWrap": "wrap",
@@ -1359,12 +1371,6 @@ Object {
   },
   "fontThin": Object {
     "fontWeight": "200",
-  },
-  "grow": Object {
-    "flexGrow": 1,
-  },
-  "grow0": Object {
-    "flexGrow": 0,
   },
   "h0": Object {
     "height": 0,
@@ -2858,12 +2864,6 @@ Object {
     },
     "shadowOpacity": 1,
     "shadowRadius": 25,
-  },
-  "shrink": Object {
-    "flexShrink": 1,
-  },
-  "shrink0": Object {
-    "flexShrink": 0,
   },
   "start0": Object {
     "start": 0,
