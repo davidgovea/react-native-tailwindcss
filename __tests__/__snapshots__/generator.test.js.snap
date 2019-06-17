@@ -1,0 +1,572 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`negative classes 1`] = `
+Object {
+  "_m1": Object {
+    "margin": -4,
+  },
+  "_m10": Object {
+    "margin": -40,
+  },
+  "_m12": Object {
+    "margin": -48,
+  },
+  "_m16": Object {
+    "margin": -64,
+  },
+  "_m2": Object {
+    "margin": -8,
+  },
+  "_m20": Object {
+    "margin": -80,
+  },
+  "_m24": Object {
+    "margin": -96,
+  },
+  "_m3": Object {
+    "margin": -12,
+  },
+  "_m32": Object {
+    "margin": -128,
+  },
+  "_m4": Object {
+    "margin": -16,
+  },
+  "_m40": Object {
+    "margin": -160,
+  },
+  "_m48": Object {
+    "margin": -192,
+  },
+  "_m5": Object {
+    "margin": -20,
+  },
+  "_m56": Object {
+    "margin": -224,
+  },
+  "_m6": Object {
+    "margin": -24,
+  },
+  "_m64": Object {
+    "margin": -256,
+  },
+  "_m8": Object {
+    "margin": -32,
+  },
+  "_mPx": Object {
+    "margin": -1,
+  },
+  "m0": Object {
+    "margin": 0,
+  },
+}
+`;
+
+exports[`shadow classes 1`] = `
+Object {
+  "shadow": Object {
+    "elevation": 1.5,
+    "shadowColor": "rgba(0, 0, 0, 0.1)",
+    "shadowOffset": Object {
+      "height": 1,
+      "width": 0,
+    },
+    "shadowOpacity": 1,
+    "shadowRadius": 3,
+  },
+  "shadow2xl": Object {
+    "elevation": 25,
+    "shadowColor": "rgba(0, 0, 0, 0.25)",
+    "shadowOffset": Object {
+      "height": 25,
+      "width": 0,
+    },
+    "shadowOpacity": 1,
+    "shadowRadius": 50,
+  },
+  "shadowInner": Object {
+    "elevation": 0,
+    "shadowColor": "rgba(0, 0, 0, 0)",
+    "shadowOffset": Object {
+      "height": 0,
+      "width": 0,
+    },
+    "shadowOpacity": 0,
+    "shadowRadius": 0,
+  },
+  "shadowLg": Object {
+    "elevation": 7.5,
+    "shadowColor": "rgba(0, 0, 0, 0.1)",
+    "shadowOffset": Object {
+      "height": 10,
+      "width": 0,
+    },
+    "shadowOpacity": 1,
+    "shadowRadius": 15,
+  },
+  "shadowMd": Object {
+    "elevation": 3,
+    "shadowColor": "rgba(0, 0, 0, 0.1)",
+    "shadowOffset": Object {
+      "height": 4,
+      "width": 0,
+    },
+    "shadowOpacity": 1,
+    "shadowRadius": 6,
+  },
+  "shadowNone": Object {
+    "elevation": 0,
+    "shadowColor": "rgba(0, 0, 0, 0)",
+    "shadowOffset": Object {
+      "height": 0,
+      "width": 0,
+    },
+    "shadowOpacity": 0,
+    "shadowRadius": 0,
+  },
+  "shadowOutline": Object {
+    "elevation": 0,
+    "shadowColor": "rgba(66, 153, 225, 0.5)",
+    "shadowOffset": Object {
+      "height": 0,
+      "width": 0,
+    },
+    "shadowOpacity": 1,
+    "shadowRadius": 0,
+  },
+  "shadowXl": Object {
+    "elevation": 12.5,
+    "shadowColor": "rgba(0, 0, 0, 0.1)",
+    "shadowOffset": Object {
+      "height": 20,
+      "width": 0,
+    },
+    "shadowOpacity": 1,
+    "shadowRadius": 25,
+  },
+}
+`;
+
+exports[`shadow classes 2`] = `
+Object {
+  "textShadow": Object {
+    "textShadowColor": "rgba(0, 0, 0, 0.1)",
+    "textShadowOffset": Object {
+      "height": 1,
+      "width": 0,
+    },
+    "textShadowRadius": 3,
+  },
+  "textShadow2xl": Object {
+    "textShadowColor": "rgba(0, 0, 0, 0.25)",
+    "textShadowOffset": Object {
+      "height": 25,
+      "width": 0,
+    },
+    "textShadowRadius": 50,
+  },
+  "textShadowInner": Object {
+    "textShadowColor": "rgba(0, 0, 0, 0)",
+    "textShadowOffset": Object {
+      "height": 0,
+      "width": 0,
+    },
+    "textShadowRadius": 0,
+  },
+  "textShadowLg": Object {
+    "textShadowColor": "rgba(0, 0, 0, 0.1)",
+    "textShadowOffset": Object {
+      "height": 10,
+      "width": 0,
+    },
+    "textShadowRadius": 15,
+  },
+  "textShadowMd": Object {
+    "textShadowColor": "rgba(0, 0, 0, 0.1)",
+    "textShadowOffset": Object {
+      "height": 4,
+      "width": 0,
+    },
+    "textShadowRadius": 6,
+  },
+  "textShadowNone": Object {
+    "textShadowColor": "rgba(0, 0, 0, 0)",
+    "textShadowOffset": Object {
+      "height": 0,
+      "width": 0,
+    },
+    "textShadowRadius": 0,
+  },
+  "textShadowOutline": Object {
+    "textShadowColor": "rgba(66, 153, 225, 0.5)",
+    "textShadowOffset": Object {
+      "height": 0,
+      "width": 0,
+    },
+    "textShadowRadius": 0,
+  },
+  "textShadowXl": Object {
+    "textShadowColor": "rgba(0, 0, 0, 0.1)",
+    "textShadowOffset": Object {
+      "height": 20,
+      "width": 0,
+    },
+    "textShadowRadius": 25,
+  },
+}
+`;
+
+exports[`shadows with custom elevation 1`] = `
+Object {
+  "shadow": Object {
+    "elevation": 3,
+    "shadowColor": "#FF0000",
+    "shadowOffset": Object {
+      "height": 1,
+      "width": 0,
+    },
+    "shadowOpacity": 1,
+    "shadowRadius": 3,
+  },
+  "shadow2xl": Object {
+    "elevation": 5,
+    "shadowColor": "#0000FF",
+    "shadowOffset": Object {
+      "height": 25,
+      "width": 0,
+    },
+    "shadowOpacity": 1,
+    "shadowRadius": 50,
+  },
+  "shadowInner": Object {
+    "elevation": 0,
+    "shadowColor": "rgba(0, 0, 0, 0)",
+    "shadowOffset": Object {
+      "height": 0,
+      "width": 0,
+    },
+    "shadowOpacity": 0,
+    "shadowRadius": 0,
+  },
+  "shadowLg": Object {
+    "elevation": 1,
+    "shadowColor": "#FFFFFF",
+    "shadowOffset": Object {
+      "height": 10,
+      "width": 0,
+    },
+    "shadowOpacity": 1,
+    "shadowRadius": 15,
+  },
+  "shadowMd": Object {
+    "elevation": 2,
+    "shadowColor": "#FFFF00",
+    "shadowOffset": Object {
+      "height": 4,
+      "width": 0,
+    },
+    "shadowOpacity": 1,
+    "shadowRadius": 6,
+  },
+  "shadowNone": Object {
+    "elevation": 0,
+    "shadowColor": "rgba(0, 0, 0, 0)",
+    "shadowOffset": Object {
+      "height": 0,
+      "width": 0,
+    },
+    "shadowOpacity": 0,
+    "shadowRadius": 0,
+  },
+  "shadowOutline": Object {
+    "elevation": 7,
+    "shadowColor": "#000FF0",
+    "shadowOffset": Object {
+      "height": 0,
+      "width": 0,
+    },
+    "shadowOpacity": 1,
+    "shadowRadius": 0,
+  },
+  "shadowXl": Object {
+    "elevation": 20,
+    "shadowColor": "#00FF00",
+    "shadowOffset": Object {
+      "height": 20,
+      "width": 0,
+    },
+    "shadowOpacity": 1,
+    "shadowRadius": 25,
+  },
+}
+`;
+
+exports[`shadows with custom elevation 2`] = `
+Object {
+  "textShadow": Object {
+    "textShadowColor": "#FF0000",
+    "textShadowOffset": Object {
+      "height": 1,
+      "width": 0,
+    },
+    "textShadowRadius": 3,
+  },
+  "textShadow2xl": Object {
+    "textShadowColor": "#0000FF",
+    "textShadowOffset": Object {
+      "height": 25,
+      "width": 0,
+    },
+    "textShadowRadius": 50,
+  },
+  "textShadowInner": Object {
+    "textShadowColor": "rgba(0, 0, 0, 0)",
+    "textShadowOffset": Object {
+      "height": 0,
+      "width": 0,
+    },
+    "textShadowRadius": 0,
+  },
+  "textShadowLg": Object {
+    "textShadowColor": "#FFFFFF",
+    "textShadowOffset": Object {
+      "height": 10,
+      "width": 0,
+    },
+    "textShadowRadius": 15,
+  },
+  "textShadowMd": Object {
+    "textShadowColor": "#FFFF00",
+    "textShadowOffset": Object {
+      "height": 4,
+      "width": 0,
+    },
+    "textShadowRadius": 6,
+  },
+  "textShadowNone": Object {
+    "textShadowColor": "rgba(0, 0, 0, 0)",
+    "textShadowOffset": Object {
+      "height": 0,
+      "width": 0,
+    },
+    "textShadowRadius": 0,
+  },
+  "textShadowOutline": Object {
+    "textShadowColor": "#000FF0",
+    "textShadowOffset": Object {
+      "height": 0,
+      "width": 0,
+    },
+    "textShadowRadius": 0,
+  },
+  "textShadowXl": Object {
+    "textShadowColor": "#00FF00",
+    "textShadowOffset": Object {
+      "height": 20,
+      "width": 0,
+    },
+    "textShadowRadius": 25,
+  },
+}
+`;
+
+exports[`shadows with hex colors 1`] = `
+Object {
+  "shadow": Object {
+    "elevation": 1.5,
+    "shadowColor": "#FF0000",
+    "shadowOffset": Object {
+      "height": 1,
+      "width": 0,
+    },
+    "shadowOpacity": 1,
+    "shadowRadius": 3,
+  },
+  "shadow2xl": Object {
+    "elevation": 25,
+    "shadowColor": "#0000FF",
+    "shadowOffset": Object {
+      "height": 25,
+      "width": 0,
+    },
+    "shadowOpacity": 1,
+    "shadowRadius": 50,
+  },
+  "shadowInner": Object {
+    "elevation": 0,
+    "shadowColor": "rgba(0, 0, 0, 0)",
+    "shadowOffset": Object {
+      "height": 0,
+      "width": 0,
+    },
+    "shadowOpacity": 0,
+    "shadowRadius": 0,
+  },
+  "shadowLg": Object {
+    "elevation": 7.5,
+    "shadowColor": "#FFFFFF",
+    "shadowOffset": Object {
+      "height": 10,
+      "width": 0,
+    },
+    "shadowOpacity": 1,
+    "shadowRadius": 15,
+  },
+  "shadowMd": Object {
+    "elevation": 3,
+    "shadowColor": "#FFFF00",
+    "shadowOffset": Object {
+      "height": 4,
+      "width": 0,
+    },
+    "shadowOpacity": 1,
+    "shadowRadius": 6,
+  },
+  "shadowNone": Object {
+    "elevation": 0,
+    "shadowColor": "rgba(0, 0, 0, 0)",
+    "shadowOffset": Object {
+      "height": 0,
+      "width": 0,
+    },
+    "shadowOpacity": 0,
+    "shadowRadius": 0,
+  },
+  "shadowOutline": Object {
+    "elevation": 0,
+    "shadowColor": "#000FF0",
+    "shadowOffset": Object {
+      "height": 0,
+      "width": 0,
+    },
+    "shadowOpacity": 1,
+    "shadowRadius": 0,
+  },
+  "shadowXl": Object {
+    "elevation": 12.5,
+    "shadowColor": "#00FF00",
+    "shadowOffset": Object {
+      "height": 20,
+      "width": 0,
+    },
+    "shadowOpacity": 1,
+    "shadowRadius": 25,
+  },
+}
+`;
+
+exports[`shadows with hex colors 2`] = `
+Object {
+  "textShadow": Object {
+    "textShadowColor": "#FF0000",
+    "textShadowOffset": Object {
+      "height": 1,
+      "width": 0,
+    },
+    "textShadowRadius": 3,
+  },
+  "textShadow2xl": Object {
+    "textShadowColor": "#0000FF",
+    "textShadowOffset": Object {
+      "height": 25,
+      "width": 0,
+    },
+    "textShadowRadius": 50,
+  },
+  "textShadowInner": Object {
+    "textShadowColor": "rgba(0, 0, 0, 0)",
+    "textShadowOffset": Object {
+      "height": 0,
+      "width": 0,
+    },
+    "textShadowRadius": 0,
+  },
+  "textShadowLg": Object {
+    "textShadowColor": "#FFFFFF",
+    "textShadowOffset": Object {
+      "height": 10,
+      "width": 0,
+    },
+    "textShadowRadius": 15,
+  },
+  "textShadowMd": Object {
+    "textShadowColor": "#FFFF00",
+    "textShadowOffset": Object {
+      "height": 4,
+      "width": 0,
+    },
+    "textShadowRadius": 6,
+  },
+  "textShadowNone": Object {
+    "textShadowColor": "rgba(0, 0, 0, 0)",
+    "textShadowOffset": Object {
+      "height": 0,
+      "width": 0,
+    },
+    "textShadowRadius": 0,
+  },
+  "textShadowOutline": Object {
+    "textShadowColor": "#000FF0",
+    "textShadowOffset": Object {
+      "height": 0,
+      "width": 0,
+    },
+    "textShadowRadius": 0,
+  },
+  "textShadowXl": Object {
+    "textShadowColor": "#00FF00",
+    "textShadowOffset": Object {
+      "height": 20,
+      "width": 0,
+    },
+    "textShadowRadius": 25,
+  },
+}
+`;
+
+exports[`special classes 1`] = `
+Object {
+  "z0": Object {
+    "zIndex": 0,
+  },
+  "z10": Object {
+    "zIndex": 10,
+  },
+  "z20": Object {
+    "zIndex": 20,
+  },
+  "z30": Object {
+    "zIndex": 30,
+  },
+  "z40": Object {
+    "zIndex": 40,
+  },
+  "z50": Object {
+    "zIndex": 50,
+  },
+  "zAuto": Object {
+    "zIndex": 0,
+  },
+  "zK0": Object {
+    "zIndex": 0,
+  },
+  "zK10": Object {
+    "zIndex": 10,
+  },
+  "zK20": Object {
+    "zIndex": 20,
+  },
+  "zK30": Object {
+    "zIndex": 30,
+  },
+  "zK40": Object {
+    "zIndex": 40,
+  },
+  "zK50": Object {
+    "zIndex": 50,
+  },
+  "zKAuto": Object {
+    "zIndex": 0,
+  },
+}
+`;
