@@ -5,13 +5,13 @@ import theme from './fixtures/testConfigHandler';
 test('custom colors', () => {
     const result = generator.generate('text', 'color', generator.generateColors(theme.colors));
 
-    expect(result).toEqual(require('./fixtures/outputs/adjustible/custom-color-output'));
+    expect(result).toMatchSnapshot();
 });
 
 test('custom fonts', () => {
     const result = generator.generate('font', 'fontFamily', theme.fontFamily);
 
-    expect(result).toEqual(require('./fixtures/outputs/adjustible/custom-font-output'));
+    expect(result).toMatchSnapshot();
 });
 
 test('custom margin', () => {
@@ -24,7 +24,7 @@ test('custom margin', () => {
         ['l', 'marginLeft'],
     ]);
 
-    expect(result).toEqual(require('./fixtures/outputs/adjustible/custom-margin-output'));
+    expect(result).toMatchSnapshot();
 });
 
 test('negative values and keys', () => {
@@ -35,7 +35,7 @@ test('negative values and keys', () => {
     ]);
     const result3 = generator.generate('flex', 'flex', theme.flex);
 
-    expect(result).toEqual(require('./fixtures/outputs/adjustible/negative-z-index-output'));
-    expect(result2).toEqual(require('./fixtures/outputs/adjustible/negative-inset-output'));
-    expect(result3).toEqual(require('./fixtures/outputs/adjustible/negative-flex-output'));
+    expect(result).toMatchSnapshot();
+    expect(result2).toMatchSnapshot();
+    expect(result3).toMatchSnapshot();
 });

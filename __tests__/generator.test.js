@@ -55,8 +55,8 @@ test('shadow classes', () => {
         none: 'none',
     });
 
-    expect(resultBox).toEqual(require('./fixtures/outputs/generator/boxShadow'));
-    expect(resultText).toEqual(require('./fixtures/outputs/generator/textShadow'));
+    expect(resultBox).toMatchSnapshot();
+    expect(resultText).toMatchSnapshot();
 });
 
 test('negative classes', () => {
@@ -82,7 +82,7 @@ test('negative classes', () => {
         '-64': '-16rem',
     });
 
-    expect(result).toEqual(require('./fixtures/outputs/generator/negativeMargin'));
+    expect(result).toMatchSnapshot();
 });
 
 test('special classes', () => {
@@ -98,7 +98,7 @@ test('special classes', () => {
         ['k', 'zIndex'],
     ]);
 
-    expect(result).toEqual(require('./fixtures/outputs/generator/zIndex'));
+    expect(result).toMatchSnapshot();
 });
 
 // translators
@@ -245,8 +245,8 @@ test('shadows with hex colors', () => {
         none: 'none',
     });
 
-    expect(resultBox).toEqual(require('./fixtures/outputs/generator/hexColorBoxShadow'));
-    expect(resultText).toEqual(require('./fixtures/outputs/generator/hexColorTextShadow'));
+    expect(resultBox).toMatchSnapshot();
+    expect(resultText).toMatchSnapshot();
 });
 
 test('shadows with custom elevation', () => {
@@ -272,6 +272,6 @@ test('shadows with custom elevation', () => {
         none: 'none',
     });
 
-    expect(resultBox).toEqual(require('./fixtures/outputs/generator/elevationBoxShadow'));
-    expect(resultText).toEqual(require('./fixtures/outputs/generator/elevationTextShadow'));
+    expect(resultBox).toMatchSnapshot();
+    expect(resultText).toMatchSnapshot();
 });

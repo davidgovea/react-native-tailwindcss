@@ -55,221 +55,221 @@ import boxShadow from '../corePlugins/boxShadow';
 import textShadow from '../corePlugins/textShadow';
 
 test('alignContent', () => {
-    expect(alignContent).toEqual(require('./fixtures/outputs/tailwind/alignContent'));
+    expect(alignContent).toMatchSnapshot();
 });
 
 test('alignItems', () => {
-    expect(alignItems).toEqual(require('./fixtures/outputs/tailwind/alignItems'));
+    expect(alignItems).toMatchSnapshot();
 });
 
 test('alignSelf', () => {
-    expect(alignSelf).toEqual(require('./fixtures/outputs/tailwind/alignSelf'));
+    expect(alignSelf).toMatchSnapshot();
 });
 
 test('backfaceVisibility', () => {
-    expect(backfaceVisibility).toEqual(require('./fixtures/outputs/tailwind/backfaceVisibility'));
+    expect(backfaceVisibility).toMatchSnapshot();
 });
 
 test('borderStyle', () => {
-    expect(borderStyle).toEqual(require('./fixtures/outputs/tailwind/borderStyle'));
+    expect(borderStyle).toMatchSnapshot();
 });
 
 test('direction', () => {
-    expect(direction).toEqual(require('./fixtures/outputs/tailwind/direction'));
+    expect(direction).toMatchSnapshot();
 });
 
 test('display', () => {
-    expect(display).toEqual(require('./fixtures/outputs/tailwind/display'));
+    expect(display).toMatchSnapshot();
 });
 
 test('flexDirection', () => {
-    expect(flexDirection).toEqual(require('./fixtures/outputs/tailwind/flexDirection'));
+    expect(flexDirection).toMatchSnapshot();
 });
 
 test('flexWrap', () => {
-    expect(flexWrap).toEqual(require('./fixtures/outputs/tailwind/flexWrap'));
+    expect(flexWrap).toMatchSnapshot();
 });
 
 test('fontStyle', () => {
-    expect(fontStyle).toEqual(require('./fixtures/outputs/tailwind/fontStyle'));
+    expect(fontStyle).toMatchSnapshot();
 });
 
 test('fontWeight', () => {
-    expect(fontWeight).toEqual(require('./fixtures/outputs/tailwind/fontWeight'));
+    expect(fontWeight).toMatchSnapshot();
 });
 
 test('justifyContent', () => {
-    expect(justifyContent).toEqual(require('./fixtures/outputs/tailwind/justifyContent'));
+    expect(justifyContent).toMatchSnapshot();
 });
 
 test('objectFit', () => {
-    expect(objectFit).toEqual(require('./fixtures/outputs/tailwind/objectFit'));
+    expect(objectFit).toMatchSnapshot();
 });
 
 test('overflow', () => {
-    expect(overflow).toEqual(require('./fixtures/outputs/tailwind/overflow'));
+    expect(overflow).toMatchSnapshot();
 });
 
 test('position', () => {
-    expect(position).toEqual(require('./fixtures/outputs/tailwind/position'));
+    expect(position).toMatchSnapshot();
 });
 
 test('resize', () => {
-    expect(resize).toEqual(require('./fixtures/outputs/tailwind/resize'));
+    expect(resize).toMatchSnapshot();
 });
 
 test('textAlign', () => {
-    expect(textAlign).toEqual(require('./fixtures/outputs/tailwind/textAlign'));
+    expect(textAlign).toMatchSnapshot();
 });
 
 test('textDecoration', () => {
-    expect(textDecoration).toEqual(require('./fixtures/outputs/tailwind/textDecoration'));
+    expect(textDecoration).toMatchSnapshot();
 });
 
 test('textTransform', () => {
-    expect(textTransform).toEqual(require('./fixtures/outputs/tailwind/textTransform'));
+    expect(textTransform).toMatchSnapshot();
 });
 
 test('verticalAlign', () => {
-    expect(verticalAlign).toEqual(require('./fixtures/outputs/tailwind/verticalAlign'));
+    expect(verticalAlign).toMatchSnapshot();
 });
 
 test('backgroundColor', () => {
-    expect(backgroundColor).toEqual(require('./fixtures/outputs/tailwind/backgroundColor'));
+    expect(backgroundColor).toMatchSnapshot();
 });
 
 test('borderColor', () => {
-    expect(borderColor).toEqual(require('./fixtures/outputs/tailwind/borderColor'));
+    expect(borderColor).toMatchSnapshot();
 });
 
 test('borderRadius', () => {
-    expect(borderRadius).toEqual(require('./fixtures/outputs/tailwind/borderRadius'));
+    expect(borderRadius).toMatchSnapshot();
 });
 
 test('borderWidth', () => {
-    expect(borderWidth).toEqual(require('./fixtures/outputs/tailwind/borderWidth'));
+    expect(borderWidth).toMatchSnapshot();
 });
 
 test('flex', () => {
-    expect(flex).toEqual(require('./fixtures/outputs/tailwind/flex'));
+    expect(flex).toMatchSnapshot();
 });
 
 test('flexGrow', () => {
-    expect(flexGrow).toEqual(require('./fixtures/outputs/tailwind/flexGrow'));
+    expect(flexGrow).toMatchSnapshot();
 });
 
 test('flexShrink', () => {
-    expect(flexShrink).toEqual(require('./fixtures/outputs/tailwind/flexShrink'));
+    expect(flexShrink).toMatchSnapshot();
 });
 
 test('fontFamily', () => {
-    expect(fontFamily).toEqual(require('./fixtures/outputs/tailwind/fontFamily'));
+    expect(fontFamily).toMatchSnapshot();
 });
 
 test('fontSize', () => {
-    expect(fontSize).toEqual(require('./fixtures/outputs/tailwind/fontSize'));
+    expect(fontSize).toMatchSnapshot();
 });
 
 test('height', () => {
-    expect(height).toEqual(require('./fixtures/outputs/tailwind/height'));
+    expect(height).toMatchSnapshot();
 });
 
 test('inset', () => {
-    expect(inset).toEqual(require('./fixtures/outputs/tailwind/inset'));
+    expect(inset).toMatchSnapshot();
 });
 
 test('top', () => {
-    expect(top).toEqual(require('./fixtures/outputs/tailwind/top'));
+    expect(top).toMatchSnapshot();
 });
 
 test('bottom', () => {
-    expect(bottom).toEqual(require('./fixtures/outputs/tailwind/bottom'));
+    expect(bottom).toMatchSnapshot();
 });
 
 test('left', () => {
-    expect(left).toEqual(require('./fixtures/outputs/tailwind/left'));
+    expect(left).toMatchSnapshot();
 });
 
 test('right', () => {
-    expect(right).toEqual(require('./fixtures/outputs/tailwind/right'));
+    expect(right).toMatchSnapshot();
 });
 
 test('start', () => {
-    expect(start).toEqual(require('./fixtures/outputs/tailwind/start'));
+    expect(start).toMatchSnapshot();
 });
 
 test('end', () => {
-    expect(end).toEqual(require('./fixtures/outputs/tailwind/end'));
+    expect(end).toMatchSnapshot();
 });
 
 test('letterSpacing', () => {
-    expect(letterSpacing).toEqual(require('./fixtures/outputs/tailwind/letterSpacing'));
+    expect(letterSpacing).toMatchSnapshot();
 });
 
 test('lineHeight', () => {
-    expect(lineHeight).toEqual(require('./fixtures/outputs/tailwind/lineHeight'));
+    expect(lineHeight).toMatchSnapshot();
 });
 
 test('margin', () => {
-    expect(margin).toEqual(require('./fixtures/outputs/tailwind/margin'));
+    expect(margin).toMatchSnapshot();
 });
 
 test('maxHeight', () => {
-    expect(maxHeight).toEqual(require('./fixtures/outputs/tailwind/maxHeight'));
+    expect(maxHeight).toMatchSnapshot();
 });
 
 test('maxWidth', () => {
-    expect(maxWidth).toEqual(require('./fixtures/outputs/tailwind/maxWidth'));
+    expect(maxWidth).toMatchSnapshot();
 });
 
 test('minHeight', () => {
-    expect(minHeight).toEqual(require('./fixtures/outputs/tailwind/minHeight'));
+    expect(minHeight).toMatchSnapshot();
 });
 
 test('minWidth', () => {
-    expect(minWidth).toEqual(require('./fixtures/outputs/tailwind/minWidth'));
+    expect(minWidth).toMatchSnapshot();
 });
 
 test('opacity', () => {
-    expect(opacity).toEqual(require('./fixtures/outputs/tailwind/opacity'));
+    expect(opacity).toMatchSnapshot();
 });
 
 test('padding', () => {
-    expect(padding).toEqual(require('./fixtures/outputs/tailwind/padding'));
+    expect(padding).toMatchSnapshot();
 });
 
 test('textColor', () => {
-    expect(textColor).toEqual(require('./fixtures/outputs/tailwind/textColor'));
+    expect(textColor).toMatchSnapshot();
 });
 
 test('tint', () => {
-    expect(tint).toEqual(require('./fixtures/outputs/tailwind/tint'));
+    expect(tint).toMatchSnapshot();
 });
 
 test('width', () => {
-    expect(width).toEqual(require('./fixtures/outputs/tailwind/width'));
+    expect(width).toMatchSnapshot();
 });
 
 test('zIndex', () => {
-    expect(zIndex).toEqual(require('./fixtures/outputs/tailwind/zIndex'));
+    expect(zIndex).toMatchSnapshot();
 });
 
 test('insetDir', () => {
-    expect(insetDir).toEqual(require('./fixtures/outputs/tailwind/insetDir'));
+    expect(insetDir).toMatchSnapshot();
 });
 
 test('borderWidthDir', () => {
-    expect(borderWidthDir).toEqual(require('./fixtures/outputs/tailwind/borderWidthDir'));
+    expect(borderWidthDir).toMatchSnapshot();
 });
 
 test('borderRadiusDir', () => {
-    expect(borderRadiusDir).toEqual(require('./fixtures/outputs/tailwind/borderRadiusDir'));
+    expect(borderRadiusDir).toMatchSnapshot();
 });
 
 test('boxShadow', () => {
-    expect(boxShadow).toEqual(require('./fixtures/outputs/tailwind/boxShadow'));
+    expect(boxShadow).toMatchSnapshot();
 });
 
 test('textShadow', () => {
-    expect(textShadow).toEqual(require('./fixtures/outputs/tailwind/textShadow'));
+    expect(textShadow).toMatchSnapshot();
 });
